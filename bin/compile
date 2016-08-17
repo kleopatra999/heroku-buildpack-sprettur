@@ -15,7 +15,7 @@ BUILD_DIR=$1
 echo "-----> Installing sprettur"
 SPRETTUR_DIR=$BUILD_DIR/.heroku/bin
 mkdir -p $SPRETTUR_DIR
-curl -s -o $SPRETTUR_DIR/sprettur https://sprettur.herokuapp.com/sprettur
+curl -s -o $SPRETTUR_DIR/sprettur https://sprettur-staging.herokuapp.com/sprettur
 chmod +x $SPRETTUR_DIR/sprettur
 
 echo "-----> Removing Procfile"
